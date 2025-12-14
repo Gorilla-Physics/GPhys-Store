@@ -113,7 +113,7 @@ namespace GPhysStore
                 GamePathBlock.Text = "Game path: Not detected";
 
                 var ofd = new Microsoft.Win32.OpenFileDialog();
-                ofd.Filter = "Gorilla Tag Executable (GorillaTag.exe)|GorillaTag.exe";
+                ofd.Filter = "Gorilla Tag Executable (Gorilla Tag.exe)|Gorilla Tag.exe";
                 ofd.Title = "Locate Gorilla Tag Executable";
                 var result = ofd.ShowDialog();
                 if (result == true)
